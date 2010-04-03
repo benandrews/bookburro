@@ -13,6 +13,79 @@
 
 var libraries = [
 {
+name: 'us.md.frederick_county_all',
+title: 'MD - Frederick County',
+link: 'http://www.fcpl.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.md.frederick_county_brunswick',
+title: 'MD - Frederick County - Brunswick',
+link: 'http://www.fcpl.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=BR',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.md.frederick_county_c_burr_artz',
+title: 'MD - Frederick County - C. Burr Artz',
+link: 'http://www.fcpl.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=AR',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.md.frederick_county_emmitsburg',
+title: 'MD - Frederick County - Emmitsburg',
+link: 'http://www.fcpl.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=EM',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.md.frederick_county_middletown',
+title: 'MD - Frederick County - Middletown',
+link: 'http://www.fcpl.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=MD',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.md.frederick_county_point_of_rocks',
+title: 'MD - Frederick County - Point of Rocks',
+link: 'http://www.fcpl.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=PT',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.md.frederick_county_thurmont',
+title: 'MD - Frederick County - Thurmont',
+link: 'http://www.fcpl.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=TH',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.md.frederick_county_urbana',
+title: 'MD - Frederick County - Urbana',
+link: 'http://www.fcpl.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=UR',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.md.frederick_county_walkersville',
+title: 'MD - Frederick County - Walkersville',
+link: 'http://www.fcpl.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=WA',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+
+{
 name: 'us.fl.sarasota_county_library',
 title: 'FL - Sarasota County - All',
 link: 'http://sarac.co.sarasota.fl.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=14',
