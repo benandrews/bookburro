@@ -13,6 +13,78 @@
 
 var libraries = [
 {
+name: 'us.fl.sarasota_county_library',
+title: 'FL - Sarasota County - All',
+link: 'http://sarac.co.sarasota.fl.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=14',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.fl.sarasota_county_library_elsie_quirk',
+title: 'FL - Sarasota County - Elsie Quirk',
+link: 'http://sarac.co.sarasota.fl.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=11',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.fl.sarasota_county_library_fruitville',
+title: 'FL - Sarasota County - Fruitville',
+link: 'http://sarac.co.sarasota.fl.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=8',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.fl.sarasota_county_library_gulf_gate',
+title: 'FL - Sarasota County - Gulf Gate',
+link: 'http://sarac.co.sarasota.fl.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=13',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.fl.sarasota_county_library_jacaranda',
+title: 'FL - Sarasota County - Jacaranda',
+link: 'http://sarac.co.sarasota.fl.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=10',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.fl.sarasota_county_library_north_port',
+title: 'FL - Sarasota County - North Port',
+link: 'http://sarac.co.sarasota.fl.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=9',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.fl.sarasota_county_library_north_sarasota',
+title: 'FL - Sarasota County - North Sarasota',
+link: 'http://sarac.co.sarasota.fl.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=12',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.fl.sarasota_county_library_north_selby',
+title: 'FL - Sarasota County - Selby',
+link: 'http://sarac.co.sarasota.fl.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=1',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.fl.sarasota_county_library_north_venice',
+title: 'FL - Sarasota County - Venice',
+link: 'http://sarac.co.sarasota.fl.us/search/?searchtype=i&searcharg=#{ISBN}&searchscope=2',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
 name: 'us.il.chicago_public_library',
 title: 'IL - Chicago Public Library',
 link: 'http://www.chipublib.org/search/results?isbn=#{ISBN}&advancedSearch=submitted',
