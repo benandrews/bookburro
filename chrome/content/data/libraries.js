@@ -13,6 +13,87 @@
 
 var libraries = [
 {
+name: 'us.va.virginia_beach_public_library',
+title: 'VA - Virginia Beach Public Library',
+link: 'http://vbplcat.vbgov.com/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.va.virginia_beach_public_library_bayside',
+title: 'VA - Virginia Beach - Bayside',
+link: 'http://vbplcat.vbgov.com/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=BAYSIDEx',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.va.virginia_beach_public_library_bookmobile',
+title: 'VA - Virginia Beach - Bookmobile',
+link: 'http://vbplcat.vbgov.com/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=BOOKMOBILx',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.va.virginia_beach_public_library_central',
+title: 'VA - Virginia Beach - Central',
+link: 'http://vbplcat.vbgov.com/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CENTRALx',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.va.virginia_beach_public_library_great_neck',
+title: 'VA - Virginia Beach - Great Neck',
+link: 'http://vbplcat.vbgov.com/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=GREATNECx',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.va.virginia_beach_public_library_kempsville',
+title: 'VA - Virginia Beach - Kempsville',
+link: 'http://vbplcat.vbgov.com/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=KEMPSVILLx',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.va.virginia_beach_public_library_oceanfront',
+title: 'VA - Virginia Beach - Oceanfront',
+link: 'http://vbplcat.vbgov.com/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=OCEANFRONx',
+dont: '0967865204',
+have: '0590353403',
+missing: 'found no matches'
+},
+{
+name: 'us.va.virginia_beach_public_library_princess_anne',
+title: 'VA - Virginia Beach - Princess Anne',
+link: 'http://vbplcat.vbgov.com/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=PRINCSSANx',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.va.virginia_beach_public_library_pungo_blackwater',
+title: 'VA - Virginia Beach - Pungo Blackwater',
+link: 'http://vbplcat.vbgov.com/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=PUNGOx',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.va.virginia_beach_public_library_windsor_woods',
+title: 'VA - Virginia Beach - Windsor Woods',
+link: 'http://vbplcat.vbgov.com/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=WINDSRWOOx',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+
+{
 name: 'us.md.frederick_county_all',
 title: 'MD - Frederick County',
 link: 'http://www.fcpl.org/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
