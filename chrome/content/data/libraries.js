@@ -13,6 +13,759 @@
 
 var libraries = [
 {
+name: 'us.il.lewis_and_clark_all',
+title: 'IL - Lewis and Clark - All',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=113',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.belleville',
+title: 'IL - Belleville',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=101',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.bernard_long',
+title: 'IL - Bernard Long',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=71',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.bethalto',
+title: 'IL - Bethalto',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=37',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.blackburn_college',
+title: 'IL - Blackburn College',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=64',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.breese',
+title: 'IL - Breese',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=33',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.brighton_memorial',
+title: 'IL - Brighton Memorial',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=31',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.bunker_hill_hs',
+title: 'IL - Bunker Hill HS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=106',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.bunker_hill',
+title: 'IL - Bunker Hill',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=83',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.cahokia_hs',
+title: 'IL - Cahokia HS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=17',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.cahokia',
+title: 'IL - Cahokia',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=98',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.cahokia_school_district',
+title: 'IL - Cahokia School District',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=95',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.carlinville',
+title: 'IL - Carlinville',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=11',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.carlyle_grade_sch',
+title: 'IL - Carlyle Grade Sch',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=86',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.carlyle_hs',
+title: 'IL - Carlyle HS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=67',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.carlyle_jh',
+title: 'IL - Carlyle JH',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=68',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.carlyle_school_district',
+title: 'IL - Carlyle School District',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=87',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.carriel_jh',
+title: 'IL - Carriel JH',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=105',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.carrollton_elem',
+title: 'IL - Carrollton Elem',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=80',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.carrollton_hs',
+title: 'IL - Carrollton HS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=79',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.carrollton_school_district',
+title: 'IL - Carrollton School District',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=88',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.case_halstead',
+title: 'IL - Case Halstead',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=16',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.caseyville',
+title: 'IL - Caseyville',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=99',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.central_elem',
+title: 'IL - Central Elem',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=45',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.central_hs',
+title: 'IL - Central HS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=54',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.centreville',
+title: 'IL - Centreville',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=32',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.columbia',
+title: 'IL - Columbia',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=30',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.daugherty',
+title: 'IL - Daugherty',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=28',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.dunbar_elem',
+title: 'IL - Dunbar Elem',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=60',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.east_alton',
+title: 'IL - East Alton',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=4',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.east_st_louis',
+title: 'IL - East St Louis',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=9',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.east_st_louis_school_district',
+title: 'IL - East St Louis School District',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=89',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.east_st_louis_hs',
+title: 'IL - East St Louis HS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=56',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.edwardsville',
+title: 'IL - Edwardsville',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=8',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.evans_elem',
+title: 'IL - Evans Elem',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=108',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.fairmont_city',
+title: 'IL - Fairmont City',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=114',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.fairview_heights',
+title: 'IL - Fairview Heights',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=12',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.fulton_jh',
+title: 'IL - Fulton JH',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=94',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.germantown',
+title: 'IL - Germantown',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=65',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.gillespie',
+title: 'IL - Gillespie',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=14',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.glen_carbon',
+title: 'IL - Glen Carbon',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=50',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.gordon_bush_elem',
+title: 'IL - Gordon Bush Elem',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=63',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.grand_prairie',
+title: 'IL - Grand Prairie',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=42',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.greenfield_elem',
+title: 'IL - Greenfield Elem',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=76',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.greenfield_hs',
+title: 'IL - Greenfield HS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=75',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.greenfield_school_district',
+title: 'IL - Greenfield School District',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=90',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.greenville',
+title: 'IL - Greenville',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=38',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.harris_elem',
+title: 'IL - Harris Elem',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=72',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.hartford',
+title: 'IL - Hartford',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=40',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.hayner',
+title: 'IL - Hayner',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=102',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.hinchcliffe_elem',
+title: 'IL - Hinchcliffe Elem',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=109',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.illini_ms',
+title: 'IL - Illini MS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=74',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.jerseyville_hs',
+title: 'IL - Jerseyville HS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=73',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.jerseyville',
+title: 'IL - Jerseyville',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=39',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.jerseyville_school_district',
+title: 'IL - Jerseyville School District',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=91',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.kampmeyer_elem',
+title: 'IL - Kampmeyer Elem',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=110',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.katie_harper_wright_elem',
+title: 'IL - Katie Harper Wright Elem',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=61',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.lincoln_ms',
+title: 'IL - Lincoln MS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=59',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.louis_latzer_memorial',
+title: 'IL - Louis Latzer Memorial',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=5',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.madison_hs',
+title: 'IL - Madison HS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=69',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.madison_ms',
+title: 'IL - Madison MS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=70',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.madison',
+title: 'IL - Madison',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=48',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.madison_school_district',
+title: 'IL - Madison School District',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=92',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.maryville_community',
+title: 'IL - Maryville Community',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=97',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.mason_clark_ms',
+title: 'IL - Mason Clark MS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=57',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.mater_dei_hs',
+title: 'IL - Mater Dei HS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=53',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.metro_east_lutheran_hs',
+title: 'IL - Metro East Lutheran HS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=15',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.officer_elem',
+title: 'IL - Officer Elem',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=62',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.millstadt',
+title: 'IL - Millstadt',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=85',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.mississippi_valley',
+title: 'IL - Mississippi Valley',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=115',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.morrison-talbott',
+title: 'IL - Morrison-Talbott',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=29',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.moye_elem',
+title: 'IL - Moye Elem',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=111',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.o\'fallon',
+title: 'IL - O\'Fallon',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=13',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.roodhouse',
+title: 'IL - Roodhouse',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=96',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.roxana_jh',
+title: 'IL - Roxana JH',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=44',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.roxana',
+title: 'IL - Roxana',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=47',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.roxana_school_district',
+title: 'IL - Roxana School District',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=93',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.roxana_hs',
+title: 'IL - Roxana HS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=43',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.schaefer_elem',
+title: 'IL - Schaefer Elem',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=107',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.six_mile',
+title: 'IL - Six Mile',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=103',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.smithton',
+title: 'IL - Smithton',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=100',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.south_roxana_elem',
+title: 'IL - South Roxana Elem',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=46',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.southwestern_hs',
+title: 'IL - Southwestern HS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=81',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.staunton',
+title: 'IL - Staunton',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=52',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.tri-township',
+title: 'IL - Tri-Township',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=49',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.triad_hs',
+title: 'IL - Triad HS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=66',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.valmeyer',
+title: 'IL - Valmeyer',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=55',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.venice',
+title: 'IL - Venice',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=51',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.waterloo_hs',
+title: 'IL - Waterloo HS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=84',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.whiteside_elem',
+title: 'IL - Whiteside Elem',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=77',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.whiteside_ms',
+title: 'IL - Whiteside MS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=78',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.whiteside_school_district',
+title: 'IL - Whiteside School District',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=27',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.wood_river',
+title: 'IL - Wood River',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=10',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+{
+name: 'us.il.wyvetter_younge_ms',
+title: 'IL - Wyvetter Younge MS',
+link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=58',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No matches found'
+},
+
+{
 name: 'us.va.virginia_beach_public_library',
 title: 'VA - Virginia Beach Public Library',
 link: 'http://vbplcat.vbgov.com/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
