@@ -13,6 +13,270 @@
 
 var libraries = [
 {
+name: 'us.mn.washington_county_library',
+title: 'MN - Washington County Library ',
+link: 'http://ipac.washington.lib.mn.us/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}',
+dont: '0967865204',
+have: '1568269595',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.oh.clevenet_all',
+title: 'OH - Clevenet - All',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=CLEVNET',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_barberton',
+title: 'OH - Clevenet - Barberton',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=BARBG',
+dont: '0967865204',
+have: '0590353403',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_bellevue',
+title: 'OH - Clevenet - Bellevue',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=BLVG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_birchard',
+title: 'OH - Clevenet - Birchard',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=BIRG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_burton',
+title: 'OH - Clevenet - Burton',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=BTNG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_cleve_hts_univ_hts',
+title: 'OH - Clevenet - Cleve Hts Univ Hts',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=CHG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_cleveland_law',
+title: 'OH - Clevenet - Cleveland Law',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=CLL',
+dont: '0967865204',
+have: '1590318706',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_cleveland',
+title: 'OH - Clevenet - Cleveland',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=CPLG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_clyde',
+title: 'OH - Clevenet - Clyde',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=CLYG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_east_cleveland',
+title: 'OH - Clevenet - East Cleveland',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=ECG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_elyria',
+title: 'OH - Clevenet - Elyria',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=ELG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_euclid',
+title: 'OH - Clevenet - Euclid',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=EUG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_fairport_harbor',
+title: 'OH - Clevenet - Fairport Harbor',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=FHG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_hawken_school',
+title: 'OH - Clevenet - Hawken School',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=HWK-UPPER',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_hawken_school',
+title: 'OH - Clevenet - Hawken School',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=HWK-UPPER',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_hudson_library_historical_society',
+title: 'OH - Clevenet - Hudson Library & Historical Society',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=HUDG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_huron',
+title: 'OH - Clevenet - Huron',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=HRNG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_kirtland',
+title: 'OH - Clevenet - Kirtland',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=KRTG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_lorain',
+title: 'OH - Clevenet - Lorain',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=LORG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_madison',
+title: 'OH - Clevenet - Madison',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=MDSNG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_medina_county_district',
+title: 'OH - Clevenet - Medina County District',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=MEG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_milan_berlin_township',
+title: 'OH - Clevenet - Milan Berlin Township',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=MILG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_orrville',
+title: 'OH - Clevenet - Orrville',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=ORG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_peninsula_library',
+title: 'OH - Clevenet - Peninsula',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=PENG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_perry',
+title: 'OH - Clevenet - Perry',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=PERG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_ritter',
+title: 'OH - Clevenet - Ritter',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=RITG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_sandusky',
+title: 'OH - Clevenet - Sandusky',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=SAG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_shaker_heights',
+title: 'OH - Clevenet - Shaker Heights',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=SHG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_twinsburg',
+title: 'OH - Clevenet - Twinsburg',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=TWG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_wayne_county',
+title: 'OH - Clevenet - Wayne County',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=WAG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_wickliffe',
+title: 'OH - Clevenet - Wickliffe',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=WKPLG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
+name: 'us.oh.clevenet_willoughby_eastlake',
+title: 'OH - Clevenet - Willoughby Eastlake',
+link: 'http://search2.clevnet.org/web2/tramp2.exe/do_keyword_search/guest?SETTING_KEY=English&servers=1home&index=bn&query=#{ISBN}&location_group_filter=WEG',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found&nbsp;0&nbsp;titles&nbsp;'
+},
+{
 name: 'us.il.lewis_and_clark_all',
 title: 'IL - Lewis and Clark - All',
 link: 'http://webcat.lcls.org/search/?SORT=D&searchtype=i&searcharg=#{ISBN}&searchscope=113',
