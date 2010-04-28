@@ -13,6 +13,46 @@
 
 var libraries = [
 {
+name: 'ca.bc.vancouver_island_all',
+title: 'CA - BC - Vancouver Island',
+link: 'http://hip.virl.bc.ca/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}',
+dont: '0967865204',
+have: '0394839129',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.ky.oldham_county_public_library',
+title: 'KY - Oldham County Public',
+link: 'http://www.oldhampl.org/TLCScripts/interpac.dll?Search&Config=pac&SearchField=4096&SearchData=#{ISBN}',
+dont: '0967865204',
+have: '0439136350',
+missing: 'Nothing was found for your search'
+},
+{
+name: 'us.sc.greenville_county_library',
+title: 'SC - Greenville County Library',
+link: 'http://elib.greenvillelibrary.org/uhtbin/cgisirsi.exe/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.columbia_college_library',
+title: 'CA - Columbia College Library',
+link: 'http://sirsi-pri.yosemite.cc.ca.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ma.art_institute_of_boston',
+title: 'MA - Art Institute of Boston',
+link: 'http://endeavor.flo.org/vwebv/search?searchArg1=#{ISBN}&argType1=any&searchCode1=ISBN&searchType=2',
+dont: '0967865204',
+have: '0880390069',
+missing: 'Search resulted in no hits'
+},
+{
 name: 'us.mn.washington_county_library',
 title: 'MN - Washington County Library ',
 link: 'http://ipac.washington.lib.mn.us/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}',
@@ -5400,10 +5440,10 @@ missing: 'Sorry, could not find anything matching'
 {
 	name:'us.va.prince_william_library',
 	title: 'VA - Prince William Library',
-	link: 'http://librarycatalog.pwcgov.org/ipac20/ipac.jsp?menu=search&x=0&y=0&aspect=subtab13&index=ISBNEX&term=#{ISBN}',
+	link: 'http://librarycatalog.pwcgov.org/polaris/search/searchresults.aspx?ctx=1.1033.0.0.3&type=Keyword&term=#{ISBN}&by=ISBN',
 	dont: '0967865204',
 	have: '0439136350',
-	missing: 'Sorry, could not find anything matching'
+	missing: 'No titles found'
 },
 {
 	name:'us.fl.orange_county_all',
