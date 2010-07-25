@@ -12,6 +12,87 @@
 */
 
 var libraries = [
+
+{
+name: 'us.il.ChampaignPublicLibrary',
+title: 'IL - Champaign Public Library',
+link: 'http://lincpac.lincolntrail.info:8080/ipac20/ipac.jsp?index=ISBNEX&term=#{ISBN}&profile=chn',
+dont: '0967865204',
+have: '0439136350',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.il.LincolnTrailLibrariesSystem',
+title: 'IL - Lincoln Trail Libraries System',
+link: 'http://lincpac.lincolntrail.info:8080/ipac20/ipac.jsp?index=ISBNEX&term=#{ISBN}',
+dont: '0967865204',
+have: '0439136350',
+missing: 'could not find anything matching'
+},
+{
+name: 'us.il.UniversityOfIllinoisUrbanaChampaignLibrary',
+title: 'IL - University of Illinois Urbana Champaign',
+link: 'https://i-share.carli.illinois.edu/uiu/cgi-bin/Pwebrecon.cgi?SAB1=#{ISBN}&FLD1=ISBN+%28ISBN%29&CNT=10&HIST=1',
+dont: '0151012237',
+have: '0439136350',
+missing: 'The library catalog was not able to find any matches to your search.'
+},
+{
+name: 'us.md.FrederickCountyLibrary',
+title: 'MD - Frederick County Public Library',
+link: 'http://fcpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN',
+dont: '0967865204',
+have: '0590353403',
+missing: 'found no matches'
+},
+{
+name: 'us.de.university_of_delaware_library',
+title: 'DE - University of Delaware Library',
+link: "http://delcat.udel.edu/F/?func=scan&SCAN_CODE=020&scan_start=#{ISBN}",
+dont: '032119375X',
+have: '0321342321',
+match_isbn: true
+},
+{
+name: 'us.il.st_charles_public_library',
+title: 'IL - St Charles Public Library',
+link: 'http://ab.stcharleslibrary.org/result.ashx?inlibrary=false&searchmode=exact&q=ex-All-8.0%3A%22#{ISBN}%22',
+dont: '0967865204',
+have: '0439136350',
+missing: 'No results found'
+},
+{
+name: 'us.ga.atlanta_fulton_county_public_library',
+title: 'GA - Atlanta-Fulton County Public Library',
+link: 'http://afcatalog.co.fulton.ga.us/uhtbin/cgisirsi/x/0/0/5?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALL',
+dont: '0967865204',
+have: '0439136350',
+missing: 'found no matches'
+},
+{
+name: 'us.ca.san_mateo_county_library',
+title: 'CA - San Mateo County library',
+link: 'http://catalog.plsinfo.org/search/i?SEARCH=#{ISBN}&searchscope=1',
+have: '0439136350',
+dont: '0967865204',
+missing: 'No matches found'
+},
+{
+name: 'us.oh.toledo_lucas_county_public_library',
+title: 'OH - Toledo Lucas County Public Library',
+link: 'http://catalog.toledolibrary.org/search/i?SEARCH=#{ISBN}',
+have: '0439136350',
+dont: '0967865204',
+missing: 'No matches found'
+},
+{
+name: 'us.ga.deKalb_county_public_library',
+title: 'GA - DeKalb County Public Library',
+dont: '032119375x',
+have: "0061125644",
+link: 'http://findit.dekalblibrary.org/ipac20/ipac.jsp?menu=search&index=ISBNEX&term=#{ISBN}',
+missing: 'Sorry, could not find anything matching'
+},
 {
 name: 'ca.bc.vancouver_island_all',
 title: 'CA - BC - Vancouver Island',
@@ -4030,14 +4111,6 @@ missing: 'found no matches'
 	missing: 'found no matches'
 },
 {
-	name:'us.va.prince_william_public_library_system',
-	title: 'VA - Prince William Public Library System',
-	link: 'http://librarycatalog.pwcgov.org/ipac20/ipac.jsp?menu=search&term=#{ISBN}&index=ISBNEX',
-	dont: '0967865204',
-	have: '1569245134',
-	missing: 'Sorry, could not find anything matching'
-},
-{
 name:'us.il.chicago_all_swan_libraries',
 title: 'IL - Chicago All SWAN Libraries',
 link: 'http://swan.mls.lib.il.us/search~S1/?searchtype=i&searcharg=#{ISBN}&searchscope=1',
@@ -5437,14 +5510,7 @@ missing: 'Sorry, could not find anything matching'
 	have: '0306817438',
 	missing: 'Sorry, could not find anything matching'
 },
-{
-	name:'us.va.prince_william_library',
-	title: 'VA - Prince William Library',
-	link: 'http://librarycatalog.pwcgov.org/polaris/search/searchresults.aspx?ctx=1.1033.0.0.3&type=Keyword&term=#{ISBN}&by=ISBN',
-	dont: '0967865204',
-	have: '0439136350',
-	missing: 'No titles found'
-},
+
 {
 	name:'us.fl.orange_county_all',
 	title: 'FL - Orange County Public Library - All',
@@ -8377,7 +8443,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.aliso_viejo_library',
-     title: 'Orange Co. - Aliso Viejo Library',
+     title: 'CA - Orange Co - Aliso Viejo Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ALISOVIEJO',
      dont: '0967865204',
      have: '0439786770',
@@ -8385,7 +8451,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.brea_library',
-     title: 'Orange Co. - Brea Library',
+     title: 'CA - Orange Co - Brea Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=BREA',
      dont: '0967865204',
      have: '0439786770',
@@ -8393,7 +8459,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.costa_mesa_library',
-     title: 'Orange Co. - Costa Mesa Library',
+     title: 'CA - Orange Co - Costa Mesa Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=COSTAMESA',
      dont: '0967865204',
      have: '0439786770',
@@ -8401,7 +8467,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.costa_mesa_technology_library',
-     title: 'Orange Co. - Costa Mesa Technology Library',
+     title: 'CA - Orange Co - Costa Mesa Technology Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CMTECH',
      dont: '0967865204',
      have: '0439786770',
@@ -8409,7 +8475,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.costa_mesa/mesa_verde_library',
-     title: 'Orange Co. - Costa Mesa/Mesa Verde Library',
+     title: 'CA - Orange Co - Costa Mesa/Mesa Verde Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CMMESAVERD',
      dont: '0967865204',
      have: '0439786770',
@@ -8417,7 +8483,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.cypress_library',
-     title: 'Orange Co. - Cypress Library',
+     title: 'CA - Orange Co - Cypress Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=CYPRESS',
      dont: '0967865204',
      have: '0439786770',
@@ -8425,7 +8491,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.dana_point_library',
-     title: 'Orange Co. - Dana Point Library',
+     title: 'CA - Orange Co - Dana Point Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=DANAPOINT',
      dont: '0967865204',
      have: '0439786770',
@@ -8433,7 +8499,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.el_toro_library',
-     title: 'Orange Co. - El Toro Library',
+     title: 'CA - Orange Co - El Toro Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ELTORO',
      dont: '0967865204',
      have: '0439786770',
@@ -8441,7 +8507,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.foothill_ranch_library',
-     title: 'Orange Co. - Foothill Ranch Library',
+     title: 'CA - Orange Co - Foothill Ranch Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=FOOTHILLR',
      dont: '0967865204',
      have: '0439786770',
@@ -8449,7 +8515,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.fountain_valley_library',
-     title: 'Orange Co. - Fountain Valley Library',
+     title: 'CA - Orange Co - Fountain Valley Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=FOUNTAINV',
      dont: '0967865204',
      have: '0439786770',
@@ -8457,7 +8523,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.garden_grove_chapman_library',
-     title: 'Orange Co. - Garden Grove Chapman Library',
+     title: 'CA - Orange Co - Garden Grove Chapman Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=GGCHAPMAN',
      dont: '0967865204',
      have: '0439786770',
@@ -8465,7 +8531,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.garden_grove_regional_library',
-     title: 'Orange Co. - Garden Grove Regional Library',
+     title: 'CA - Orange Co - Garden Grove Regional Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=GGREGIONAL',
      dont: '0967865204',
      have: '0439786770',
@@ -8473,7 +8539,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.garden_grove_west_library',
-     title: 'Orange Co. - Garden Grove West Library',
+     title: 'CA - Orange Co - Garden Grove West Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=GGWEST',
      dont: '0967865204',
      have: '0439786770',
@@ -8481,7 +8547,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.irvine_heritage_park_regional_library',
-     title: 'Orange Co. - Irvine Heritage Park Regional Library',
+     title: 'CA - Orange Co - Irvine Heritage Park Regional Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=IRVINEHP',
      dont: '0967865204',
      have: '0439786770',
@@ -8489,7 +8555,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.irvine_university_park_library',
-     title: 'Orange Co. - Irvine University Park Library',
+     title: 'CA - Orange Co - Irvine University Park Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=IRVINEUP',
      dont: '0967865204',
      have: '0439786770',
@@ -8497,7 +8563,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.irvine_wheeler_library',
-     title: 'Orange Co. - Irvine Wheeler Library',
+     title: 'CA - Orange Co - Irvine Wheeler Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=WHEELER',
      dont: '0967865204',
      have: '0439786770',
@@ -8505,7 +8571,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.la_habra_library',
-     title: 'Orange Co. - La Habra Library',
+     title: 'CA - Orange Co - La Habra Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=LAHABRA',
      dont: '0967865204',
      have: '0439786770',
@@ -8513,7 +8579,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.la_palma_library',
-     title: 'Orange Co. - La Palma Library',
+     title: 'CA - Orange Co - La Palma Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=LAPALMA',
      dont: '0967865204',
      have: '0439786770',
@@ -8521,7 +8587,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.ladera_ranch_library',
-     title: 'Orange Co. - Ladera Ranch Library',
+     title: 'CA - Orange Co - Ladera Ranch Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=LADERARNCH',
      dont: '0967865204',
      have: '0439786770',
@@ -8529,7 +8595,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.laguna_beach_library',
-     title: 'Orange Co. - Laguna Beach Library',
+     title: 'CA - Orange Co - Laguna Beach Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=LAGUNABCH',
      dont: '0967865204',
      have: '0439786770',
@@ -8537,7 +8603,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.laguna_hills_technology_library',
-     title: 'Orange Co. - Laguna Hills Technology Library',
+     title: 'CA - Orange Co - Laguna Hills Technology Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=LHTECH',
      dont: '0967865204',
      have: '0439786770',
@@ -8545,7 +8611,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.laguna_niguel_library',
-     title: 'Orange Co. - Laguna Niguel Library',
+     title: 'CA - Orange Co - Laguna Niguel Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=LAGUNANIGL',
      dont: '0967865204',
      have: '0439786770',
@@ -8553,7 +8619,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.laguna_woods_library',
-     title: 'Orange Co. - Laguna Woods Library',
+     title: 'CA - Orange Co - Laguna Woods Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=LAGUNAWOOD',
      dont: '0967865204',
      have: '0788877097',
@@ -8561,7 +8627,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.los_alamitos/rossmoor_library',
-     title: 'Orange Co. - Los Alamitos/Rossmoor Library',
+     title: 'CA - Orange Co - Los Alamitos/Rossmoor Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=LOSAL_ROSS',
      dont: '0967865204',
      have: '0439786770',
@@ -8569,7 +8635,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.orange_county_public_library',
-     title: 'Orange Co. - Orange County Public Library',
+     title: 'CA - Orange Co - Orange County Public Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=OCPLHQ',
      dont: '0967865204',
      have: '0316119482',
@@ -8577,7 +8643,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.orangewood_childrens_home_library',
-     title: 'Orange Co. - Orangewood Childrens Home Library',
+     title: 'CA - Orange Co - Orangewood Childrens Home Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=ORANGEWOOD',
      dont: '0967865204',
      have: '0439786770',
@@ -8585,7 +8651,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.rancho_santa_margarita_library',
-     title: 'Orange Co. - Rancho Santa Margarita Library',
+     title: 'CA - Orange Co - Rancho Santa Margarita Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=RANCHOSTAM',
      dont: '0967865204',
      have: '0439786770',
@@ -8593,7 +8659,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.san_clemente_library',
-     title: 'Orange Co. - San Clemente Library',
+     title: 'CA - Orange Co - San Clemente Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SCLEMENTE',
      dont: '0967865204',
      have: '0439786770',
@@ -8601,7 +8667,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.san_juan_capistrano_regional_library',
-     title: 'Orange Co. - San Juan Capistrano Regional Library',
+     title: 'CA - Orange Co - San Juan Capistrano Regional Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SANJUANCAP',
      dont: '0967865204',
      have: '0439786770',
@@ -8609,7 +8675,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.seal_beach/mary_wilson_library',
-     title: 'Orange Co. - Seal Beach/Mary Wilson Library',
+     title: 'CA - Orange Co - Seal Beach/Mary Wilson Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SBMARYW',
      dont: '0967865204',
      have: '0439786770',
@@ -8617,7 +8683,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.silverado_library',
-     title: 'Orange Co. - Silverado Library',
+     title: 'CA - Orange Co - Silverado Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=SILVERADO',
      dont: '0967865204',
      have: '0439786770',
@@ -8625,7 +8691,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.stanton_library',
-     title: 'Orange Co. - Stanton Library',
+     title: 'CA - Orange Co - Stanton Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=STANTON',
      dont: '0967865204',
      have: '0439786770',
@@ -8633,7 +8699,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.tustin_library',
-     title: 'Orange Co. - Tustin Library',
+     title: 'CA - Orange Co - Tustin Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=TUSTIN',
      dont: '0967865204',
      have: '0439786770',
@@ -8641,7 +8707,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.villa_park_library',
-     title: 'Orange Co. - Villa Park Library',
+     title: 'CA - Orange Co - Villa Park Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=VILLAPARK',
      dont: '0967865204',
      have: '0439786770',
@@ -8649,7 +8715,7 @@ missing: 'No matches found'
 },
 {
      name: 'us.ca.oc.westminster_library',
-     title: 'Orange Co. - Westminster Library',
+     title: 'CA - Orange Co - Westminster Library',
      link: 'http://orca.ocpl.org/uhtbin/cgisirsi/x/0/0/123?searchdata1=#{ISBN}&srchfield1=GENERAL^SUBJECT^GENERAL^^ISBN&library=WESTMINSTR',
      dont: '0967865204',
      have: '0439786770',
